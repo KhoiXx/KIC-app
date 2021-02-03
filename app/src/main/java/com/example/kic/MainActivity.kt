@@ -1,23 +1,18 @@
 package com.example.kic
 
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
-import android.graphics.Color.parseColor
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.coordinatorlayout.widget.CoordinatorLayout
-import androidx.core.view.isInvisible
-import androidx.drawerlayout.widget.DrawerLayout
 import com.example.kic.R.color
 import com.example.kic.R.color.red
-import com.google.android.material.navigation.NavigationView
+import com.example.kic.ui.PopActivity
 
 class MainActivity : AppCompatActivity() {
     var response: Int = 0
@@ -107,7 +102,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
     fun chatbot(view: View){
-        val intent = Intent(this,BotActivity::class.java)
+        val intent = Intent(this, PopActivity::class.java)
         startActivity(intent)
     }
 
