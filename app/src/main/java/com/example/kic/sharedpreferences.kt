@@ -1,5 +1,3 @@
-@file:Suppress("DEPRECATION")
-
 package com.example.kic
 
 //import com.google.gson.Gson;
@@ -18,7 +16,10 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.util.*
 
-class sharedpreferences(appContext:Context) {
+
+
+@Suppress("DEPRECATION")
+class sharedpreferences {
     private var preferences: SharedPreferences? = null
     private var DEFAULT_APP_IMAGEDATA_DIRECTORY: String? = null
     private var lastImagePath = ""
