@@ -6,11 +6,9 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
@@ -19,6 +17,7 @@ import com.example.kic.ui.PopActivity
 import com.github.chrisbanes.photoview.PhotoView
 
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     var response: Int = 0
     lateinit var SharedPreferences: SharedPreferences
@@ -120,6 +119,18 @@ class MainActivity : AppCompatActivity() {
     fun chatbot(view: View){
         val intent = Intent(this, PopActivity::class.java)
         startActivity(intent)
+    }
+    private var doubleBackToExitPressedOnce = false
+    override fun onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed()
+            return
+        }
+
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show()
+
+        Handler().postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
     }
 
 

@@ -11,12 +11,12 @@ class DataHandler {
         dataStore = mContext.getSharedPreferences("appname", Context.MODE_PRIVATE)
     }
 
-    fun which(): Boolean {
-        return dataStore!!.getBoolean("some_key", false)
+    fun which(key:String): Boolean {
+        return dataStore!!.getBoolean(key, false)
     }
 
-    fun setCheckedItem(itemwhat: Boolean) {
-        dataStore!!.edit().putBoolean("some_key", itemwhat).apply()
+    fun setCheckedItem(key: String,itemwhat: Boolean) {
+        dataStore!!.edit().putBoolean(key, itemwhat).apply()
     }
 
 }

@@ -31,7 +31,6 @@ class MedconActivity : AppCompatActivity() {
     private fun getStatus(input: String){
         SharedPreferences = getSharedPreferences("Medcon", Context.MODE_PRIVATE)
         checkmed = SharedPreferences.getBoolean(input,false)
-        return
     }
 
 }
