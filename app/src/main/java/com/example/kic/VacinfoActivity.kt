@@ -2,13 +2,16 @@ package com.example.kic
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.view.isVisible
 
 class VacinfoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.vacinfo)
+        initfunc()
 
 
         findViewById<ImageView>(R.id.btnback).setOnClickListener{ view->
@@ -29,5 +32,14 @@ class VacinfoActivity : AppCompatActivity() {
         val ans4=findViewById<TextView>(R.id.ans4)
         val ans5=findViewById<TextView>(R.id.ans5)
         val ans6=findViewById<TextView>(R.id.ans6)
+
+        ans1.visibility = View.GONE
+        ans2.visibility = View.GONE
+        ans3.visibility = View.GONE
+        ans4.visibility = View.GONE
+        ans5.visibility = View.GONE
+        ans6.visibility = View.GONE
+
+
     }
 }
