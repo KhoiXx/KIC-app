@@ -9,6 +9,8 @@ class VacinfoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.vacinfo)
+
+
         findViewById<ImageView>(R.id.btnback).setOnClickListener{ view->
             onBackPressed()
         }

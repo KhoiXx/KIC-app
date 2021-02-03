@@ -63,7 +63,8 @@ class PopActivity : Activity() {
         clickEvents()
 
         val random = (0..3).random()
-        customBotMessage("Hello! I'm ${botList[random]}, how may I help?")
+        customBotMessage("Hello! I'm ${botList[random]}")
+        customBotMessage("How are you today?")
     }
     private fun clickEvents() {
 
