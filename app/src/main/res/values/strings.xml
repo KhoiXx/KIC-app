@@ -11,4 +11,41 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_maps">Map</string>
+    <string name="question1">Can a COVID-19 vaccine make me sick with COVID-19?</string>
+    <string name="question2">After getting a COVID-19 vaccine, will I test positive for COVID-19 on a viral test?</string>
+    <string name="question3">If I have already had COVID-19 and recovered, do I still need to get vaccinated with a COVID-19 vaccine?</string>
+    <string name="question4">Will a COVID-19 vaccination protect me from getting sick with COVID-19?</string>
+    <string name="question5">Will a COVID-19 vaccine alter my DNA?</string>
+    <string name="question6">Is it safe for me to get a COVID-19 vaccine if I would like to have a baby one day?</string>
+    <string name="ans1">"No. None of the authorized and recommended COVID-19 vaccines or COVID-19 vaccines currently in development in the United States contain the live virus that causes COVID-19. This means that a COVID-19 vaccine cannot make you sick with COVID-19.
+
+There are several different types of vaccines in development. All of them teach our immune systems how to recognize and fight the virus that causes COVID-19. Sometimes this process can cause symptoms, such as fever. These symptoms are normal and are a sign that the body is building protection against the virus that causes COVID-19. Learn more about how COVID-19 vaccines work.
+
+It typically takes a few weeks for the body to build immunity (protection against the virus that causes COVID-19) after vaccination. That means it’s possible a person could be infected with the virus that causes COVID-19 just before or just after vaccination and still get sick. This is because the vaccine has not had enough time to provide protection."</string>
+
+    <string name="ans2">"No. Neither the recently authorized and recommended vaccines nor the other COVID-19 vaccines currently in clinical trials in the United States can cause you to test positive on viral tests, which are used to see if you have a current infection.​
+
+If your body develops an immune response—the goal of vaccination—there is a possibility you may test positive on some antibody tests. Antibody tests indicate you had a previous infection and that you may have some level of protection against the virus. Experts are currently looking at how COVID-19 vaccination may affect antibody testing results."</string>
+    <string name="ans3">"Yes. Due to the severe health risks associated with COVID-19 and the fact that re-infection with COVID-19 is possible, vaccine should be offered to you regardless of whether you already had COVID-19 infection. CDC is providing recommendations to federal, state, and local governments about who should be vaccinated first.
+
+        At this time, experts do not know how long someone is protected from getting sick again after recovering from COVID-19. The immunity someone gains from having an infection, called natural immunity, varies from person to person. Some early evidence suggests natural immunity may notlast very long.We won’t know how long immunity produced by vaccination lasts until we have more data on how well the vaccines work.
+
+        Both natural immunity and vaccine-induced immunity are important aspects of COVID-19 that experts are trying to learn more about, and CDC will keep the public informed as new evidence becomes available."</string>
+    <string name="ans4">"Yes. COVID-19 vaccination works by teaching your immune system how to recognize and fight the virus that causes COVID-19, and this protects you from getting sick with COVID-19.
+
+Being protected from getting sick is important because even though many people with COVID-19 have only a mild illness, others may get a severe illness, have long-term health effects, or even die. There is no way to know how COVID-19 will affect you, even if you don’t have an increased risk of developing severe complications. Learn more about how COVID-19 vaccines work."</string>
+    <string name="ans5">"No. COVID-19 mRNA vaccines do not change or interact with your DNA in any way.
+
+Messenger RNA vaccines—also called mRNA vaccines—are the first COVID-19 vaccines authorized for use in the United States. mRNA vaccines teach our cells how to make a protein that triggers an immune response. The mRNA from a COVID-19 vaccine never enters the nucleus of the cell, which is where our DNA is kept. This means the mRNA cannot affect or interact with our DNA in any way. Instead, COVID-19 mRNA vaccines work with the body’s natural defenses to safely develop immunity to disease. Learn more about how COVID-19 mRNA vaccines work. ​
+
+At the end of the process, our bodies have learned how to protect against future infection. That immune response and making antibodies is what protects us from getting infected if the real virus enters our bodies."</string>
+    <string name="ans6">"Yes. People who want to get pregnant in the future may receive the COVID-19 vaccine.
+
+Based on current knowledge, experts believe that COVID-19 vaccines are unlikely to pose a risk to a person trying to become pregnant in the short or long term. Scientists study every vaccine carefully for side effects immediately and for years afterward.  The COVID-19 vaccines are being studied carefully now and will continue to be studied for many years, similar to other vaccines.
+
+The COVID-19 vaccine, like other vaccines, works by training our bodies to develop antibodies to fight against the virus that causes COVID-19, to prevent future illness. There is currently no evidence that antibodies formed from COVID-19 vaccination cause any problems with pregnancy, including the development of the placenta. In addition, there is no evidence suggesting that fertility problems are a side effect of ANY vaccine. People who are trying to become pregnant now or who plan to try in the future may receive the COVID-19 vaccine when it becomes available to them."</string>
+
+
+
+
 </resources>

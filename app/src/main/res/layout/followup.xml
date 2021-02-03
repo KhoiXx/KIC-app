@@ -88,7 +88,7 @@
         app:srcCompat="@drawable/well" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/addsymptom"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="28dp"
@@ -96,6 +96,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/calendarView2"
         app:layout_constraintVertical_bias="0.12"
-        app:srcCompat="@drawable/add" />
+        app:srcCompat="@drawable/add"
+        android:onClick="addsymptom"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

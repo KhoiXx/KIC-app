@@ -208,6 +208,18 @@
                 android:textColor="#FF0000"
                 app:layout_constraintEnd_toEndOf="@+id/btn_status"
                 app:layout_constraintTop_toTopOf="@+id/btn_status" />
+
+            <TextView
+                android:id="@+id/statustxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="48dp"
+                android:text="Pending"
+                android:textColor="#FFBF00"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="@+id/btn_status"
+                app:layout_constraintTop_toTopOf="@+id/btn_status" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

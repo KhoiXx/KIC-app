@@ -39,7 +39,7 @@ object BotResponse {
             }
 
             //Hello
-            message.contains("Hello") -> {
+            message.contains("hello") -> {
                 when (random) {
                     0 -> "Hello there!"
                     1 -> "Hi"

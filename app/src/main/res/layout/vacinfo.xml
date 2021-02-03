@@ -4,6 +4,268 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VacinfoActivity">
+    tools:context=".FollowupActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/corner"
+        android:fontFamily="@font/avo"
+        android:gravity="start|center_vertical"
+        android:paddingStart="60dp"
+        android:text="About Vaccine"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnback"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/corner"
+        android:src="@drawable/backicon_foreground"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+    <LinearLayout
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transperent"
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/question"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/question1"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/ans1"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/ques2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/question"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/question2"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/ans2"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/ques3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/question"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/question3"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/ans3"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/ques4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/question"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/question4"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/ans4"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/ques5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/question"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/question5"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ans5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/ans5"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/ques6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/question"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/question6"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ans6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vniavo"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8sp"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="5dp"
+                android:text="@string/ans6"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- <ImageView
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_marginStart="20dp"
+         android:layout_marginBottom="20dp"
+         android:src="@drawable/boticon"
+         android:onClick="chatbot"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintStart_toStartOf="parent" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

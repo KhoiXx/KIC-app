@@ -42,7 +42,7 @@ class ProfileActivity : AppCompatActivity() {
         job.setText(jobtxt)
         hometown.setText(hometowntxt)
         btn_update.setOnClickListener { view ->
-            Toast.makeText(this, "Saved!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Saved!", Toast.LENGTH_SHORT).show();
         }
 
         btnback.setOnClickListener {

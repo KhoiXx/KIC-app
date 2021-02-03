@@ -37,7 +37,7 @@ class StatusActivity : AppCompatActivity() {
             }
         }
         findViewById<Button>(R.id.btn_update).setOnClickListener{view->
-            Toast.makeText(this,"Updated!",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Updated!",Toast.LENGTH_SHORT).show()
         }
         findViewById<ImageView>(R.id.btnback).setOnClickListener{view->
             onBackPressed()

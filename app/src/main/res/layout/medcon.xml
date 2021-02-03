@@ -7,137 +7,6 @@
     tools:context=".MedconActivity">
 
 
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Type"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/box" />
-
-    <CheckBox
-        android:id="@+id/allergy5"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:fontFamily="@font/avo"
-        android:saveEnabled="true"
-        android:text="Other"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Type"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/box" />
-
-    <CheckBox
-        android:id="@+id/allergy4"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:fontFamily="@font/avo"
-        android:saveEnabled="true"
-        android:text="Risk factor"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/box" />
-
-    <CheckBox
-        android:id="@+id/allergy3"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:fontFamily="@font/avo"
-        android:saveEnabled="true"
-        android:text="Cardiovascular disease"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Type"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/box" />
-
-    <CheckBox
-        android:id="@+id/allergy2"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:fontFamily="@font/avo"
-        android:saveEnabled="true"
-        android:text="Cardiovascular disease"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="350dp"
@@ -167,7 +36,7 @@
         android:id="@+id/btn_update"
         android:layout_width="245dp"
         android:layout_height="56dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="16dp"
         android:text="Update"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -181,41 +50,267 @@
         android:orientation="horizontal"
         android:visibility="gone"></LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/box" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42000002"
+        tools:layout_editor_absoluteX="156dp">
 
-    <CheckBox
-        android:id="@+id/allergy"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="30dp"
-        android:fontFamily="@font/avo"
-        android:saveEnabled="true"
-        android:text="Allergy"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Type of Allergy"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            <CheckBox
+                android:id="@+id/cancer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Cancer"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Chronickidneydisease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Chronic kidney disease"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/COPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="COPD (chronic obstructive pulmonary disease)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/downsyndrome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Down Syndrome"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Heartcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Heart conditions, such as heart failure, coronary artery disease, or cardiomyopathies"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Immunocompromised"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Immunocompromised state (weakened immune system) from solid organ transplant"
+                android:textColor="#000000" />
+
+
+            <CheckBox
+                android:id="@+id/Smoking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Smoking"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/diabete2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Type 2 diabetes mellitus"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Asthma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Asthma (moderate-to-severe)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Cerebrovascular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Cerebrovascular disease (affects blood vessels and blood supply to the brain)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Cysticfibrosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Cystic fibrosis "
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/hypertension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Hypertension or high blood pressure"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Immunocompromised1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Immunocompromised state (weakened immune system) from blood or bone marrow transplant, immune deficiencies, HIV, use of corticosteroids, or use of other immune weakening medicines"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/neurologic"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Neurologic conditions, such as dementia"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/diabetes1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Type 1 diabetes mellitus"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Liver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Liver disease"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/pulmonary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Pulmonary fibrosis (having damaged or scarred lung tissues)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/overweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Overweight (BMI &gt; 25 kg/m2, but &lt; 30 kg/m2)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Obesity1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Obesity (body mass index [BMI] of 30 kg/m2 or higher but &lt; 40 kg/m2)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Obesity2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Severe Obesity (BMI ≥ 40 kg/m2)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/sicklecelldisease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Sickle cell disease "
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/thalassemia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Thalassemia (a type of blood disorder)"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/autoimmune"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Autoimmune conditions"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/HIV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="HIV"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Guillain-Barre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Guillain-Barre Syndrome"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/Bell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="Bell’s palsy"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avo"
+                android:saveEnabled="true"
+                android:text="None of these above"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
     <!--<ImageView
         android:layout_width="70dp"
         android:layout_height="70dp"
