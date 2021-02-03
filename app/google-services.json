@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "651817836791",
+    "project_id": "kic-apptesterdata",
+    "storage_bucket": "kic-apptesterdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651817836791:android:8a4526aadd055add2a33f2",
+        "android_client_info": {
+          "package_name": "com.example.kic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651817836791-37h8kbf2ed4sud7vn1bc5kpholp154g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALbi5-h--Bpc0Xwu-NaN_3_EkVRsyJz7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651817836791-37h8kbf2ed4sud7vn1bc5kpholp154g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
