@@ -91,6 +91,24 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintRight_toRightOf="parent">
 
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/avo"
+                android:text="Logout"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#000000"
+                app:backgroundTint="@color/white"
+                app:cornerRadius="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.83"
+                app:strokeColor="@color/purple_500"
+                app:strokeWidth="2px" />
+
             <TextView
                 android:id="@+id/btn_fu2"
                 android:layout_width="wrap_content"

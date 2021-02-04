@@ -49,7 +49,10 @@
             android:layout_height="match_parent"
             android:background="@color/transperent"
             android:orientation="horizontal"
-            android:visibility="invisible"></LinearLayout>
+            android:visibility="invisible"
+            android:onClick="cover">
+
+        </LinearLayout>
 
 
     </RelativeLayout>

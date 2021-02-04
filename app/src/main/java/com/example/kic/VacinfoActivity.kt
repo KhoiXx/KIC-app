@@ -20,6 +20,12 @@ class VacinfoActivity : AppCompatActivity() {
         setContentView(R.layout.vacinfo)
         initfunc()
         reference.putBoolean("cout1",false)
+        reference.putBoolean("cout2",false)
+        reference.putBoolean("cout3",false)
+        reference.putBoolean("cout4",false)
+        reference.putBoolean("cout5",false)
+        reference.putBoolean("cout6",false)
+
 
         ques1.setOnClickListener { view ->
             openandclose(ans1, "cout1")
@@ -78,7 +84,6 @@ class VacinfoActivity : AppCompatActivity() {
     private fun openandclose(answer: View, type: String) {
 
         var temp = reference.getBoolean(type)
-        Toast.makeText(this, temp.toString(), Toast.LENGTH_SHORT).show()
         if (temp == false) {
             answer.isGone = false
             answer.isVisible = true

@@ -15,6 +15,9 @@ import androidx.core.view.isVisible
 import com.example.kic.R.color
 import com.example.kic.ui.PopActivity
 import com.github.chrisbanes.photoview.PhotoView
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.menu.*
+import kotlinx.android.synthetic.main.toolbar.*
 
 
 @Suppress("DEPRECATION")
@@ -28,21 +31,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val photoView = findViewById<View>(R.id.photo_view) as PhotoView
-        photoView.setImageResource(R.drawable.temp)
-
-        val btn_menu: ImageView = findViewById(R.id.btn_menu);
-        val loginmenu: LinearLayout = findViewById(R.id.loginmenu)
-        val cover: LinearLayout = findViewById(R.id.cover)
-        val btn_login: Button = findViewById(R.id.btn_login)
-        val group1: ConstraintLayout = findViewById(R.id.group1)
-        val group2: ConstraintLayout = findViewById(R.id.group2)
-        val btn_pro: TextView = findViewById(R.id.btn_pro)
-        val statustxt: TextView = findViewById(R.id.statustxt)
-        val statustxt1: TextView = findViewById(R.id.statustxt1)
-        val btn_vacloc: TextView = findViewById(R.id.btn_Vacloc)
-        val btn_vacinfo = findViewById<TextView>(R.id.btn_vacinfo)
+        initmain()
 
         SharedPreferences = getSharedPreferences("Agree", Context.MODE_PRIVATE)
         newstatus = SharedPreferences.getBoolean("CheckBox", false)
@@ -53,15 +42,13 @@ class MainActivity : AppCompatActivity() {
             cover.visibility = View.VISIBLE
             // frag.visibility = View.VISIBLE
         }
-        cover.setOnClickListener { view ->
-            loginmenu.animate().translationX(640f)
-            cover.visibility = View.INVISIBLE
-            //frag.visibility = View.GONE
-
-        }
         btn_login.setOnClickListener {
             group1.visibility = View.GONE
             group2.visibility = View.VISIBLE
+        }
+        btn_logout.setOnClickListener{
+            group1.visibility = View.VISIBLE
+            group2.visibility = View.GONE
         }
         btn_pro.setOnClickListener {
             intent = Intent(this, ProfileActivity::class.java)
@@ -88,7 +75,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btn_vacloc.setOnClickListener {
+        btn_Vacloc.setOnClickListener {
             intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
         }
@@ -108,6 +95,23 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+    private fun initmain(){
+        val photoView = findViewById<View>(R.id.photo_view) as PhotoView
+        photoView.setImageResource(R.drawable.temp)
+
+        val btn_menu: ImageView = findViewById(R.id.btn_menu);
+        val loginmenu: LinearLayout = findViewById(R.id.loginmenu)
+        val cover: LinearLayout = findViewById(R.id.cover)
+        val btn_login: Button = findViewById(R.id.btn_login)
+        val group1: ConstraintLayout = findViewById(R.id.group1)
+        val group2: ConstraintLayout = findViewById(R.id.group2)
+        val btn_pro: TextView = findViewById(R.id.btn_pro)
+        val statustxt: TextView = findViewById(R.id.statustxt)
+        val statustxt1: TextView = findViewById(R.id.statustxt1)
+        val btn_vacloc: TextView = findViewById(R.id.btn_Vacloc)
+        val btn_vacinfo = findViewById<TextView>(R.id.btn_vacinfo)
+        val btn_logout =findViewById<Button>(R.id.btn_logout)
+    }
 
     fun getUrlFromIntent(view: View) {
         val url =
@@ -122,6 +126,7 @@ class MainActivity : AppCompatActivity() {
     }
     private var doubleBackToExitPressedOnce = false
     override fun onBackPressed() {
+        cover(cover)
         if (doubleBackToExitPressedOnce) {
             super.onBackPressed()
             return
@@ -131,6 +136,12 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show()
 
         Handler().postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
+    }
+
+    fun cover(view: View) {
+            loginmenu.animate().translationX(640f)
+            cover.visibility = View.INVISIBLE
+            //frag.visibility = View.GONE
     }
 
 
