@@ -71,7 +71,7 @@
                 android:paddingEnd="15dp"
                 android:paddingBottom="5dp"
                 android:text="@string/question1"
-                android:textColor="@color/red"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <TextView
@@ -106,7 +106,7 @@
                 android:paddingEnd="15dp"
                 android:paddingBottom="5dp"
                 android:text="@string/question2"
-                android:textColor="@color/red"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <TextView
@@ -124,6 +124,7 @@
                 android:paddingBottom="5dp"
                 android:text="@string/ans2"
                 android:textColor="#000000" />
+
             <TextView
                 android:id="@+id/ques3"
                 android:layout_width="wrap_content"
@@ -139,7 +140,7 @@
                 android:paddingEnd="15dp"
                 android:paddingBottom="5dp"
                 android:text="@string/question3"
-                android:textColor="@color/red"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
             <TextView
                 android:id="@+id/ans3"
@@ -172,7 +173,7 @@
                 android:paddingEnd="15dp"
                 android:paddingBottom="5dp"
                 android:text="@string/question4"
-                android:textColor="@color/red"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
             <TextView
                 android:id="@+id/ans4"
@@ -205,7 +206,7 @@
                 android:paddingEnd="15dp"
                 android:paddingBottom="5dp"
                 android:text="@string/question5"
-                android:textColor="@color/red"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
             <TextView
                 android:id="@+id/ans5"
@@ -238,7 +239,7 @@
                 android:paddingEnd="15dp"
                 android:paddingBottom="5dp"
                 android:text="@string/question6"
-                android:textColor="@color/red"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
             <TextView
                 android:id="@+id/ans6"

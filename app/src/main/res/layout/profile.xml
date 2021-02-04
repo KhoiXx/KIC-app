@@ -192,7 +192,7 @@
         android:fontFamily="@font/avo"
         android:gravity="start|center_vertical"
         android:paddingStart="15dp"
-        android:text="Adress"
+        android:text="Address"
         android:textAllCaps="false"
         android:textColor="#0E5483"
         android:textSize="18sp"
